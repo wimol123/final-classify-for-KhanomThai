@@ -10,7 +10,7 @@ import os
 load_dotenv()
 # Get the paths from the environment
 header_img_path = os.getenv("HEADER_IMG_PATH")
-# khanomla_img_path = os.getenv("COMPONENT_190_PATH1")
+khanomla_img_path = os.getenv("COMPONENT_190_PATH1")
 
 # Set page configuration
 st.set_page_config(
@@ -22,7 +22,9 @@ st.set_page_config(
 st.image(image=header_img_path)
 # Display main image and title
 st.title("ล่าเตียง")
+
 st.title(khanomla_img_path)
+
 st.title("ความเป็นมา")
 with st.expander("ความเป็นมา"):
     st.markdown(
