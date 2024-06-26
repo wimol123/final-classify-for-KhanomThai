@@ -10,7 +10,7 @@ import os
 load_dotenv()
 # Get the paths from the environment
 header_img_path = os.getenv("HEADER_IMG_PATH")
-khanomla_img_path = os.getenv("COMPONENT_190_PATH1")
+# khanomla_img_path = os.getenv("COMPONENT_190_PATH1")
 
 # Set page configuration
 st.set_page_config(
