@@ -19,8 +19,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 st.image(image=header_img_path)
-# Display main image and title
-st.image(image=header_img_path)
 st.title("ขนมลูกชุบ: เสน่ห์ของขนมไทยโบราณ สีสันสดใส รสชาติกลมกล่อม")
 st.image(kanom_img_path)
 st.title("ที่มา")
