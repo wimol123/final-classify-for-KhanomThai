@@ -19,8 +19,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 st.image(image=header_img_path)
-# Display main image and title
-st.image(image=header_img_path)
 st.title("ขนมปลากริม: มงคลความเชื่อ และสูตรทำขนมปลากริมแบบดั้งเดิม")
 st.image(kanom_img_path)
 st.title("ความเป็นมา")
