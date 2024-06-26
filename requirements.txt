@@ -1,0 +1,8 @@
+streamlit
+torch
+torchvision
+numpy
+pillow
+ultralytics
+dill
+python-dotenv

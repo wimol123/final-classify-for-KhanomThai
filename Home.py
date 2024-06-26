@@ -24,7 +24,7 @@ st.set_page_config(
 
 # Display the header image
 HeadImg = os.getenv("HEADER_IMG_PATH")
-# st.image(HeadImg)
+st.image(HeadImg)
 
 # Page title
 st.title("Classify for KhanomThai..")
