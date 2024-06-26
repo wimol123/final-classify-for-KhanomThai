@@ -20,7 +20,7 @@ st.set_page_config(
 st.image(image=header_img_path)
 # Display title
 st.title("ขนมลูกเดือยเปียก: ขนมไทยโบราณ หวาน มัน ชื่นใจ")
-st.image(kanom_img_path)
+st.image(image=kanom_img_path)
 st.title("ที่มา")
 with st.expander("ความเป็นมา"):
     st.markdown(
