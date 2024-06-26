@@ -23,7 +23,7 @@ st.image(image=header_img_path)
 # Display main image and title
 st.title("ล่าเตียง")
 
-st.title(khanomla_img_path)
+st.title(image=khanomla_img_path)
 
 st.title("ความเป็นมา")
 with st.expander("ความเป็นมา"):
