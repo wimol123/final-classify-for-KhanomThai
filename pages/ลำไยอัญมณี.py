@@ -19,8 +19,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.image(image=header_img_path)
-# Display main image and title
+
 st.image(image=header_img_path)
 st.title("ขนมลำไยอัญมณี: ของหวานเย็นชื่นใจ สูตรลับจากคุณยาย")
 st.image(kanom_img_path)
