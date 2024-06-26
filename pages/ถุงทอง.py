@@ -25,7 +25,7 @@ st.set_page_config(
 # Display main image and title
 st.image(image=header_img_path)
 st.title("ขนมถุงทอง")
-st.image(kanom_img_path)
+# st.image(kanom_img_path)
 left_co, cent_co, last_co = st.columns(3)
 st.title("ความเป็นมา")
 with cent_co:
