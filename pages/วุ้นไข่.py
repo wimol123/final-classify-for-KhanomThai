@@ -22,7 +22,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.image(image=header_img_path)
+st.image(image=header_img_path, width=1000)
 st.title("วุ้นไข่")
 st.image(kanom_img_path)
 # left_co, cent_co, last_co = st.columns(3)
