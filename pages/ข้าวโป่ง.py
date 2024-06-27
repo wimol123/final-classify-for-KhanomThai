@@ -18,7 +18,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.image(kanom_img_path)
+st.image(header_img_path)
 # Display title
 st.title("ขนมข้าวโป่ง: ขนมไทยโบราณ หอม อร่อย น่ารับประทาน")
 st.image(kanom_img_path)
