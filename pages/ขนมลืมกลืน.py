@@ -23,6 +23,7 @@ st.set_page_config(
 # Display main image and title
 st.image(image=header_img_path)
 st.title("ขนมลืมกลืน: เอกลักษณ์ความอร่อย หอม หวาน ละมุนลิ้น")
+st.image(image=kanom_img_path)
 
 st.title("ที่มาของชื่อ")
 with st.expander("ที่มาของชื่อ"):
