@@ -21,7 +21,7 @@ st.set_page_config(
 st.image(header_img_path)
 # Display title
 st.title("ขนมข้าวโป่ง: ขนมไทยโบราณ หอม อร่อย น่ารับประทาน")
-st.image(kanom_img_path)
+st.image(kanom_img_path, width=900)
 st.title("ประวัติความเป็นมา")
 with st.expander("ประวัติความเป็นมา"):
     st.markdown(
