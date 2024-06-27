@@ -10,7 +10,7 @@ import os
 load_dotenv()
 # Get the paths from the environment
 header_img_path = os.getenv("HEADER_IMG_PATH")
-kanom_img_path = os.getenv("COMPONENT_105_PATH1")
+kanom_img_path = os.getenv("COMPONENT_118_PATH1")
 # component_1_path = os.getenv("COMPONENT_KluaiChap_PATH2")
 # component_2_path = os.getenv("COMPONENT_KluaiChap_PATH3")
 
