@@ -24,12 +24,10 @@ st.set_page_config(
 
 # Display main image and title
 st.image(image=header_img_path)
-st.title("")
-st.image(kanom_img_path)
+st.title("ขนมอินทนิล")
+st.image(kanom_img_path, width=850)
 left_co, cent_co, last_co = st.columns(3)
 st.title("ความเป็นมา")
-with cent_co:
-    st.image(image=kanom_img_path, width=600)
 
 multi = """
 
