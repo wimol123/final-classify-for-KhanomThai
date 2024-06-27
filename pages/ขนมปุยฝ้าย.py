@@ -24,7 +24,7 @@ st.set_page_config(
 st.image(header_img_path)
 # Display title
 st.title("ขนมปุยฝ้าย: ขนมมงคล สูตรโบราณ เนื้อนุ่มฟู หอมหวาน ละมุนลิ้น")
-st.image(kanom_img_path)
+st.image(kanom_img_path, width=850)
 st.title("ความเป็นมา")
 with st.expander("ความเป็นมา"):
     st.markdown(
