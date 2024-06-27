@@ -19,9 +19,6 @@ st.image(image=header_img_path)
 # Display title
 st.title("ขนมข้าวเหนียวตัด")
 st.image(kanom_img_path)
-# Display header image if exists
-if header_img_path and os.path.exists(header_img_path):
-    st.image(header_img_path, use_column_width=True)
 
 st.title("ความเป็นมา")
 with st.expander("ความเป็นมา"):
