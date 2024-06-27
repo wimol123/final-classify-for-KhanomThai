@@ -26,9 +26,8 @@ st.set_page_config(
 st.image(image=header_img_path)
 st.title("ขนมไข่เต่า, ขนมไข่นกกระทา, ขนมไข่ก๊อง")
 
-left_co, cent_co, last_co = st.columns(3)
-st.title("ความเป็นมา")
 st.image(image=kanom_img_path, width=850)
+st.title("ความเป็นมา")
 
 multi = """
 ขนมไข่เต่า หรือที่รู้จักกันในชื่อ ขนมไข่นกกระทา ขนมไข่ก๊อง ล้วนเป็นขนมชนิดเดียวกัน แต่เรียกต่างกันไปในแต่ละท้องถิ่น  
