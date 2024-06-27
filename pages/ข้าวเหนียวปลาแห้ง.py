@@ -20,8 +20,6 @@ st.image(image=header_img_path)
 st.title("ข้าวเหนียวหน้าปลาแห้ง")
 st.image(kanom_img_path)
 # Display header image if exists
-if header_img_path and os.path.exists(header_img_path):
-    st.image(header_img_path, use_column_width=True)
 
 st.title("ที่มา")
 with st.expander("ที่มา"):
