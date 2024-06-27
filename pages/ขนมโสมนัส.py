@@ -24,10 +24,9 @@ st.set_page_config(
 )
 st.image(image=header_img_path)
 # Display main image and title
-st.image(image=header_img_path)
-st.image(kanom_img_path)
 # Display title
 st.title("ขนมโสมนัส: ขนมไทยโบราณ หวานละมุน หอมมันมะพร้าว")
+st.image(kanom_img_path)
 
 st.title("ความเป็นมา")
 with st.expander("ความเป็นมา"):
