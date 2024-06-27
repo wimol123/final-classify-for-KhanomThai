@@ -23,7 +23,7 @@ st.set_page_config(
 st.image(image=header_img_path)
 # Display title
 st.title("ข้าวเกรียบยาหน้า: เอกลักษณ์ความอร่อยจากชุมชนบ้านน้ำเชี่ยว")
-st.image(kanom_img_path)
+st.image(kanom_img_path, width=850)
 st.title("ความเป็นมา")
 with st.expander("ความเป็นมา"):
     st.markdown(
