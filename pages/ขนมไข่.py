@@ -28,8 +28,7 @@ st.title("ขนมไข่")
 
 left_co, cent_co, last_co = st.columns(3)
 st.title("ความเป็นมา")
-with cent_co:
-    st.image(image=kanom_img_path, width=500)
+st.image(image=kanom_img_path, width=850)
 
 multi = """
 ขนมไข่ ขนมไทยโบราณที่ขึ้นชื่อเรื่องความหอม หวานมัน ละมุนลิ้น  มีเอกลักษณ์เฉพาะตัวด้วยเนื้อสัมผัสที่นุ่มฟู  ทานคู่กับชา กาแฟ หรือเครื่องดื่มร้อนๆ  เข้ากันได้ดี
