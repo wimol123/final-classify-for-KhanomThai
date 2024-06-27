@@ -19,15 +19,12 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.image(header_img_path)
-# Display main image and title
+
 st.image(image=header_img_path)
 st.title("ขนมมัศกอด")
 st.image(kanom_img_path)
-left_co, cent_co, last_co = st.columns(3)
 st.title("ความเป็นมา")
-with cent_co:
-    st.image(image=kanom_img_path, width=600)
+
 
 multi = """
 มัศกอดเป็นขนมไทยโบราณที่มีลักษณะหน้าตาคล้ายคัพเค้ก รสชาติหวานหอม ทำจากแป้งสาลีผสมกับกะทิและไข่ นิยมใช้ในงานบุญหรืองานสำคัญต่าง ๆ สมัยก่อนการทำขนมมัศกอดจะใช้การอบด้วยถ่าน ทำให้มีรสชาติและกลิ่นหอมเป็นเอกลักษณ์
