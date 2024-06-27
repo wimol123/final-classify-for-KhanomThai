@@ -21,16 +21,12 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.image(header_img_path)
 # Display main image and title
 st.image(image=header_img_path)
 st.title("ขนมยิ้มเสน่ห์")
 
 st.image(kanom_img_path)
-left_co, cent_co, last_co = st.columns(3)
 st.title("ความเป็นมา")
-with cent_co:
-    st.image(image=kanom_img_path, width=600)
 
 multi = """
 ขนมยิ้มเสน่ห์ หรือ ขนมหัวเราะ เป็นขนมไทยโบราณชนิดหนึ่ง มีลักษณะเป็นลูกกลมๆ เวลาทอดหน้าขนมจะต้องแตกออกคล้ายรอยยิ้มของหน้าคนเรา เนื้อขนมที่ได้มีความกรอบนอกนุ่มใน เนื้อขนมฟู่นุ่ม ร่วน
