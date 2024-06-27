@@ -21,15 +21,13 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.image(header_img_path)
-# Display main image and title
+
 st.image(image=header_img_path)
 st.title("ขนมม้าฮ่อ")
 st.image(kanom_img_path)
-left_co, cent_co, last_co = st.columns(3)
+
 st.title("ความเป็นมา")
-with cent_co:
-    st.image(image=kanom_img_path, width=600)
+
 
 multi = """
 ม้าฮ่อ หรือ ม้าห้อ เป็นอาหารว่างโบราณของไทยชนิดหนึ่ง มีลักษณะเป็นไส้รสหวานเค็ม คล้ายไส้สาคู ทานคู่กับผลไม้รสเปรี้ยวจัด โดยนิยมใช้สับปะรด แต่สามารถใช้ผลไม้เปรี้ยวอื่นๆ เช่น ส้มเขียวหวาน มะยงชิด หรือ กีวี แทนได้
