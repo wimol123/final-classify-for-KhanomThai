@@ -21,15 +21,11 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.image(header_img_path)
-# Display main image and title
+
 st.image(image=header_img_path)
 st.title("ขนมมุก")
 st.image(kanom_img_path)
-left_co, cent_co, last_co = st.columns(3)
 st.title("ความเป็นมา")
-with cent_co:
-    st.image(image=kanom_img_path, width=600)
 
 multi = """
 ขนมมุก เป็นขนมไทยโบราณชนิดหนึ่ง ที่มีลักษณะคล้ายกับขนมลูกชุบ แต่มีขนาดเล็กกว่า นิยมทำจากแป้งข้าวเหนียว น้ำตาลปี๊บ และกะทิ believed to originate from the Ayutthaya period.
