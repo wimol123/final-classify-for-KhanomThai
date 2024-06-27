@@ -16,9 +16,9 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 st.image(image=header_img_path)
-# Display title
+# Display title 
 st.title("ขนมข้าวเหนียวแดง")
-st.image(kanom_img_path)
+st.image(kanom_img_path, width=900)
 # Display header image if exists
 st.title("ความเป็นมา")
 with st.expander("ความเป็นมา"):
